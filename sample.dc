@@ -1,0 +1,11 @@
+# This is a sample file to test lexical analyzer
+
+f = 30;
+i = 16;
+
+input(n);
+
+if (n != i)
+{
+	output(f);
+}
