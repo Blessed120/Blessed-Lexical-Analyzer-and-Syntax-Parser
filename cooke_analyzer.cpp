@@ -201,7 +201,8 @@ TokenInfo getNextToken(std::ifstream& file) {
             }
         }
         
-        // // Line 206 to 216 handles <= lexeme, and returns NEQUAL_OP if <= operetor is found in order
+        
+            // // Line 206 to 216 handles <= lexeme, and returns NEQUAL_OP if <= operetor is found in order
         else if(lexeme == "!"){
           if(file.get(c) && c == '='){
             lexeme += c;
